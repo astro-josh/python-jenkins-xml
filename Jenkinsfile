@@ -19,5 +19,10 @@ pipeline {
           junit 'test-report.xml'
         }
       }
+      stage('archive') {
+        steps {
+          archiveArtifacts artifacts: '*.xml', onlyIfSuccessful: false, allowEmptyArchive: true
+        }
+      }
   }
 }
