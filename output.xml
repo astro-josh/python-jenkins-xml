@@ -1,0 +1,1 @@
+<testsuites><testsuite errors="0" failures="0" name="Notebook Tests" tests="1"><testcase classname="Notebook 1" name="Cell Test" time="123.345000"><system-out>I am stdout!</system-out><system-err>I am stderr!</system-err></testcase></testsuite></testsuites>
