@@ -4,6 +4,6 @@ test_cases = [TestCase('Cell Test', 'Notebook 1', 123.345, 'I am stdout!', 'I am
 ts=[TestSuite("Notebook Tests", test_cases, package="Notebooks")]
 print(ts[0].package)
 
-with open('output.xml', 'wb') as f:
+with open('output.xml', 'w') as f:
     TestSuite.to_file(f, ts, prettyprint=False)
     f.close()
