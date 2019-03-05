@@ -16,8 +16,8 @@ pipeline {
       }
       stage('test') {
         steps {
-          junit 'test-report.xml',
-          junit 'output.xml',
+          junit 'test-report.xml'
+          junit 'output.xml'
           junit 'convert_test_report.xml'
         }
       }
