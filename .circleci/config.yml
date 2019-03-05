@@ -1,0 +1,31 @@
+version: 2.1
+
+executors:
+  my-executor:
+    docker:
+      - image: continuumio/miniconda3
+      # astroconda/python:3.6.1
+    working_directory: ~/repo
+
+jobs:
+  build:
+    executor: my-executor
+    steps:
+      - checkout
+
+      - store_test_results:
+          path: ./
+
+      - store_artifacts:
+          path: ./*.xml
+
+workflows:
+  version: 2.1
+
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
