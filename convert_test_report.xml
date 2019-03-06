@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<testsuites disabled="0" errors="1" failures="0" tests="1" time="6.792727947235107">
-	<testsuite disabled="0" errors="1" failures="0" name="Convert Notebooks" package="spacetelescope/notebooks" skipped="0" tests="1" time="6.792727947235107">
-		<testcase classname="Initialization Notebook" file="/Users/jalexander/Desktop/notebooks/notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="Execution" time="6.792728">
+<testsuites disabled="0" errors="1" failures="0" tests="1" time="6.36692476272583">
+	<testsuite disabled="0" errors="1" failures="0" name="Convert Notebooks" package="spacetelescope-notebooks" skipped="0" tests="1" time="6.36692476272583">
+		<testcase classname="Initialization Notebook" file="/Users/jalexander/Desktop/notebooks/notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="Execution" time="6.366925">
 			<error message="Traceback (most recent call last):
   File &quot;/Users/jalexander/miniconda3/envs/notebooks/lib/python3.6/site-packages/nbpages/converter.py&quot;, line 126, in execute
     executor.preprocess(nb, {'metadata': {'path': self.path_only}})
