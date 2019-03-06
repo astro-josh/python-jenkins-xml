@@ -1,33 +1,33 @@
 <?xml version="1.0" ?>
-<testsuites disabled="0" errors="1" failures="0" tests="27" time="0.4345681667327881">
-	<testsuite disabled="0" errors="1" failures="0" name="Check Notebooks" package="spacetelescope-notebooks" skipped="0" tests="27" time="0.4345681667327881">
-		<testcase classname="interm_tesscut_requests" file="./notebooks/MAST/TESS/interm_tesscut_requests/interm_tesscut_requests.ipynb" name="Check" time="0.011521"/>
-		<testcase classname="beginner_tour_lc_tp" file="./notebooks/MAST/TESS/beginner_tour_lc_tp/beginner_tour_lc_tp.ipynb" name="Check" time="0.021055"/>
-		<testcase classname="beginner_tic_search_hd209458" file="./notebooks/MAST/TESS/beginner_tic_search_hd209458/beginner_tic_search_hd209458.ipynb" name="Check" time="0.005222"/>
-		<testcase classname="beginner_how_to_use_lc" file="./notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" name="Check" time="0.008179"/>
-		<testcase classname="interm_gi_query" file="./notebooks/MAST/TESS/interm_gi_query/interm_gi_query.ipynb" name="Check" time="0.008125"/>
-		<testcase classname="beginner_how_to_use_tp" file="./notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" name="Check" time="0.008348"/>
-		<testcase classname="interm_tesscut_astroquery" file="./notebooks/MAST/TESS/interm_tesscut_astroquery/interm_tesscut_astroquery.ipynb" name="Check" time="0.009858"/>
-		<testcase classname="beginner_tess_exomast" file="./notebooks/MAST/TESS/beginner_tess_exomast/beginner_tess_exomast.ipynb" name="Check" time="0.007896"/>
-		<testcase classname="beginner_how_to_use_dvt" file="./notebooks/MAST/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.ipynb" name="Check" time="0.005204"/>
-		<testcase classname="beginner_how_to_use_ffi" file="./notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" name="Check" time="0.005014"/>
-		<testcase classname="tesscut_dss_overlay" file="./notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb" name="Check" time="0.014643"/>
-		<testcase classname="kepler_ffi" file="./notebooks/MAST/Kepler/Kepler_FFI/kepler_ffi.ipynb" name="Check" time="0.014050"/>
-		<testcase classname="kepler_tpf" file="./notebooks/MAST/Kepler/Kepler_TPF/kepler_tpf.ipynb" name="Check" time="0.013760"/>
-		<testcase classname="kepler_dvt" file="./notebooks/MAST/Kepler/Kepler_DVT/kepler_dvt.ipynb" name="Check" time="0.005069"/>
-		<testcase classname="kepler_lightcurve" file="./notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.ipynb" name="Check" time="0.072112"/>
-		<testcase classname="HSC_TAP" file="./notebooks/MAST/HSC/HSC_TAP/HSC_TAP.ipynb" name="Check" time="0.010542"/>
-		<testcase classname="PS1_DR2_TAP" file="./notebooks/MAST/PanSTARRS/PS1_DR2_TAP/PS1_DR2_TAP.ipynb" name="Check" time="0.015941"/>
-		<testcase classname="align_to_catalogs" file="./notebooks/DrizzlePac/align_to_catalogs/align_to_catalogs.ipynb" name="Check" time="0.013712"/>
-		<testcase classname="drizzle_wfpc2" file="./notebooks/DrizzlePac/drizzle_wfpc2/drizzle_wfpc2.ipynb" name="Check" time="0.008587"/>
-		<testcase classname="use_ds9_regions_in_tweakreg" file="./notebooks/DrizzlePac/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb" name="Check" time="0.014590"/>
-		<testcase classname="align_multiple_visits" file="./notebooks/DrizzlePac/align_multiple_visits/align_multiple_visits.ipynb" name="Check" time="0.014285"/>
-		<testcase classname="align_sparse_fields" file="./notebooks/DrizzlePac/align_sparse_fields/align_sparse_fields.ipynb" name="Check" time="0.011526"/>
-		<testcase classname="Initialization" file="./notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="Check" time="0.008094"/>
-		<testcase classname="align_mosaics" file="./notebooks/DrizzlePac/align_mosaics/align_mosaics.ipynb" name="Check" time="0.019450"/>
-		<testcase classname="optimize_image_sampling" file="./notebooks/DrizzlePac/optimize_image_sampling/optimize_image_sampling.ipynb" name="Check" time="0.008157"/>
-		<testcase classname="sky_matching" file="./notebooks/DrizzlePac/sky_matching/sky_matching.ipynb" name="Check" time="0.011314"/>
-		<testcase classname="mask_satellite" file="./notebooks/DrizzlePac/mask_satellite/mask_satellite.ipynb" name="Check" time="0.088314">
+<testsuites disabled="0" errors="1" failures="0" tests="27" time="0.3387887477874756">
+	<testsuite disabled="0" errors="1" failures="0" name="Check" package="spacetelescope_notebooks" skipped="0" tests="27" time="0.3387887477874756">
+		<testcase classname="interm_tesscut_requests" file="./notebooks/MAST/TESS/interm_tesscut_requests/interm_tesscut_requests.ipynb" name="Check" time="0.011135"/>
+		<testcase classname="beginner_tour_lc_tp" file="./notebooks/MAST/TESS/beginner_tour_lc_tp/beginner_tour_lc_tp.ipynb" name="Check" time="0.020136"/>
+		<testcase classname="beginner_tic_search_hd209458" file="./notebooks/MAST/TESS/beginner_tic_search_hd209458/beginner_tic_search_hd209458.ipynb" name="Check" time="0.005250"/>
+		<testcase classname="beginner_how_to_use_lc" file="./notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" name="Check" time="0.007885"/>
+		<testcase classname="interm_gi_query" file="./notebooks/MAST/TESS/interm_gi_query/interm_gi_query.ipynb" name="Check" time="0.006490"/>
+		<testcase classname="beginner_how_to_use_tp" file="./notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" name="Check" time="0.071071"/>
+		<testcase classname="interm_tesscut_astroquery" file="./notebooks/MAST/TESS/interm_tesscut_astroquery/interm_tesscut_astroquery.ipynb" name="Check" time="0.011869"/>
+		<testcase classname="beginner_tess_exomast" file="./notebooks/MAST/TESS/beginner_tess_exomast/beginner_tess_exomast.ipynb" name="Check" time="0.007572"/>
+		<testcase classname="beginner_how_to_use_dvt" file="./notebooks/MAST/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.ipynb" name="Check" time="0.005111"/>
+		<testcase classname="beginner_how_to_use_ffi" file="./notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" name="Check" time="0.004754"/>
+		<testcase classname="tesscut_dss_overlay" file="./notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb" name="Check" time="0.008791"/>
+		<testcase classname="kepler_ffi" file="./notebooks/MAST/Kepler/Kepler_FFI/kepler_ffi.ipynb" name="Check" time="0.011706"/>
+		<testcase classname="kepler_tpf" file="./notebooks/MAST/Kepler/Kepler_TPF/kepler_tpf.ipynb" name="Check" time="0.009854"/>
+		<testcase classname="kepler_dvt" file="./notebooks/MAST/Kepler/Kepler_DVT/kepler_dvt.ipynb" name="Check" time="0.003999"/>
+		<testcase classname="kepler_lightcurve" file="./notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.ipynb" name="Check" time="0.007947"/>
+		<testcase classname="HSC_TAP" file="./notebooks/MAST/HSC/HSC_TAP/HSC_TAP.ipynb" name="Check" time="0.006471"/>
+		<testcase classname="PS1_DR2_TAP" file="./notebooks/MAST/PanSTARRS/PS1_DR2_TAP/PS1_DR2_TAP.ipynb" name="Check" time="0.010464"/>
+		<testcase classname="align_to_catalogs" file="./notebooks/DrizzlePac/align_to_catalogs/align_to_catalogs.ipynb" name="Check" time="0.010267"/>
+		<testcase classname="drizzle_wfpc2" file="./notebooks/DrizzlePac/drizzle_wfpc2/drizzle_wfpc2.ipynb" name="Check" time="0.005875"/>
+		<testcase classname="use_ds9_regions_in_tweakreg" file="./notebooks/DrizzlePac/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb" name="Check" time="0.009855"/>
+		<testcase classname="align_multiple_visits" file="./notebooks/DrizzlePac/align_multiple_visits/align_multiple_visits.ipynb" name="Check" time="0.009415"/>
+		<testcase classname="align_sparse_fields" file="./notebooks/DrizzlePac/align_sparse_fields/align_sparse_fields.ipynb" name="Check" time="0.008455"/>
+		<testcase classname="Initialization" file="./notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="Check" time="0.005442"/>
+		<testcase classname="align_mosaics" file="./notebooks/DrizzlePac/align_mosaics/align_mosaics.ipynb" name="Check" time="0.013931"/>
+		<testcase classname="optimize_image_sampling" file="./notebooks/DrizzlePac/optimize_image_sampling/optimize_image_sampling.ipynb" name="Check" time="0.005594"/>
+		<testcase classname="sky_matching" file="./notebooks/DrizzlePac/sky_matching/sky_matching.ipynb" name="Check" time="0.007516"/>
+		<testcase classname="mask_satellite" file="./notebooks/DrizzlePac/mask_satellite/mask_satellite.ipynb" name="Check" time="0.051935">
 			<error message="Notebook mask_satellite.ipynb has executed cells!" type="ExecutedCells"/>
 		</testcase>
 	</testsuite>

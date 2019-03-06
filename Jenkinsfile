@@ -17,6 +17,7 @@ pipeline {
       stage('test') {
         steps {
           junit 'convert_test_report.xml'
+          junit 'check_test_report.xml'
         }
       }
       stage('archive') {
