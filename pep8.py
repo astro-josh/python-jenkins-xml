@@ -1,4 +1,5 @@
 from pycodestyle import Checker
+import re
 
 code = [
 "# Retrieve the IR/F160W calibrated FLT and SPT data products  \n",
@@ -17,7 +18,22 @@ code = [
 ]
 
 
-c = Checker(lines=code, quiet=0, ignore='W292', show_source=True)
+c = Checker(lines=code, quiet=0, ignore='W292')
 c.check_all()
-
-print(c.report._deferred_print)
+report = c.report
+print(len(report._deferred_print))
+l = []
+for line_number, offset, code, text, doc in report._deferred_print:
+    if line_number > len(report.lines):
+        line = ''
+    else:
+        line = report.lines[line_number - 1]
+    l.append('%(path)s:%(row)d:%(col)d: %(code)s %(text)s \n%(source)s' % {
+        'path': report.filename,
+        'row': report.line_offset + line_number, 'col': offset + 1,
+        'code': code, 'text': text, 'source': line.rstrip() + "\n" + re.sub(r'\S', ' ', line[:offset]) + '^',
+    })
+    #print(line.rstrip())
+    #print(re.sub(r'\S', ' ', line[:offset]) + '^')
+print("\n\n\n")
+print('\n\n'.join(l))

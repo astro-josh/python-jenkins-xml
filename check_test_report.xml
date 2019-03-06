@@ -1,34 +1,4580 @@
 <?xml version="1.0" ?>
-<testsuites disabled="0" errors="1" failures="0" tests="27" time="0.3387887477874756">
-	<testsuite disabled="0" errors="1" failures="0" name="Check" package="spacetelescope_notebooks" skipped="0" tests="27" time="0.3387887477874756">
-		<testcase classname="interm_tesscut_requests" file="./notebooks/MAST/TESS/interm_tesscut_requests/interm_tesscut_requests.ipynb" name="Check" time="0.011135"/>
-		<testcase classname="beginner_tour_lc_tp" file="./notebooks/MAST/TESS/beginner_tour_lc_tp/beginner_tour_lc_tp.ipynb" name="Check" time="0.020136"/>
-		<testcase classname="beginner_tic_search_hd209458" file="./notebooks/MAST/TESS/beginner_tic_search_hd209458/beginner_tic_search_hd209458.ipynb" name="Check" time="0.005250"/>
-		<testcase classname="beginner_how_to_use_lc" file="./notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" name="Check" time="0.007885"/>
-		<testcase classname="interm_gi_query" file="./notebooks/MAST/TESS/interm_gi_query/interm_gi_query.ipynb" name="Check" time="0.006490"/>
-		<testcase classname="beginner_how_to_use_tp" file="./notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" name="Check" time="0.071071"/>
-		<testcase classname="interm_tesscut_astroquery" file="./notebooks/MAST/TESS/interm_tesscut_astroquery/interm_tesscut_astroquery.ipynb" name="Check" time="0.011869"/>
-		<testcase classname="beginner_tess_exomast" file="./notebooks/MAST/TESS/beginner_tess_exomast/beginner_tess_exomast.ipynb" name="Check" time="0.007572"/>
-		<testcase classname="beginner_how_to_use_dvt" file="./notebooks/MAST/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.ipynb" name="Check" time="0.005111"/>
-		<testcase classname="beginner_how_to_use_ffi" file="./notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" name="Check" time="0.004754"/>
-		<testcase classname="tesscut_dss_overlay" file="./notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb" name="Check" time="0.008791"/>
-		<testcase classname="kepler_ffi" file="./notebooks/MAST/Kepler/Kepler_FFI/kepler_ffi.ipynb" name="Check" time="0.011706"/>
-		<testcase classname="kepler_tpf" file="./notebooks/MAST/Kepler/Kepler_TPF/kepler_tpf.ipynb" name="Check" time="0.009854"/>
-		<testcase classname="kepler_dvt" file="./notebooks/MAST/Kepler/Kepler_DVT/kepler_dvt.ipynb" name="Check" time="0.003999"/>
-		<testcase classname="kepler_lightcurve" file="./notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.ipynb" name="Check" time="0.007947"/>
-		<testcase classname="HSC_TAP" file="./notebooks/MAST/HSC/HSC_TAP/HSC_TAP.ipynb" name="Check" time="0.006471"/>
-		<testcase classname="PS1_DR2_TAP" file="./notebooks/MAST/PanSTARRS/PS1_DR2_TAP/PS1_DR2_TAP.ipynb" name="Check" time="0.010464"/>
-		<testcase classname="align_to_catalogs" file="./notebooks/DrizzlePac/align_to_catalogs/align_to_catalogs.ipynb" name="Check" time="0.010267"/>
-		<testcase classname="drizzle_wfpc2" file="./notebooks/DrizzlePac/drizzle_wfpc2/drizzle_wfpc2.ipynb" name="Check" time="0.005875"/>
-		<testcase classname="use_ds9_regions_in_tweakreg" file="./notebooks/DrizzlePac/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb" name="Check" time="0.009855"/>
-		<testcase classname="align_multiple_visits" file="./notebooks/DrizzlePac/align_multiple_visits/align_multiple_visits.ipynb" name="Check" time="0.009415"/>
-		<testcase classname="align_sparse_fields" file="./notebooks/DrizzlePac/align_sparse_fields/align_sparse_fields.ipynb" name="Check" time="0.008455"/>
-		<testcase classname="Initialization" file="./notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="Check" time="0.005442"/>
-		<testcase classname="align_mosaics" file="./notebooks/DrizzlePac/align_mosaics/align_mosaics.ipynb" name="Check" time="0.013931"/>
-		<testcase classname="optimize_image_sampling" file="./notebooks/DrizzlePac/optimize_image_sampling/optimize_image_sampling.ipynb" name="Check" time="0.005594"/>
-		<testcase classname="sky_matching" file="./notebooks/DrizzlePac/sky_matching/sky_matching.ipynb" name="Check" time="0.007516"/>
-		<testcase classname="mask_satellite" file="./notebooks/DrizzlePac/mask_satellite/mask_satellite.ipynb" name="Check" time="0.051935">
-			<error message="Notebook mask_satellite.ipynb has executed cells!" type="ExecutedCells"/>
+<testsuites disabled="0" errors="30" failures="0" tests="58" time="2.6880404949188232">
+	<testsuite disabled="0" errors="1" failures="0" name="Executed Cells Check" package="spacetelescope_notebooks" skipped="0" tests="29" time="0.63783860206604">
+		<testcase classname="interm_tesscut_requests" file="./notebooks/MAST/TESS/interm_tesscut_requests/interm_tesscut_requests.ipynb" name="Executed_Cells" time="0.014488"/>
+		<testcase classname="beginner_tour_lc_tp" file="./notebooks/MAST/TESS/beginner_tour_lc_tp/beginner_tour_lc_tp.ipynb" name="Executed_Cells" time="0.033998"/>
+		<testcase classname="beginner_tic_search_hd209458" file="./notebooks/MAST/TESS/beginner_tic_search_hd209458/beginner_tic_search_hd209458.ipynb" name="Executed_Cells" time="0.089209"/>
+		<testcase classname="beginner_how_to_use_lc" file="./notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" name="Executed_Cells" time="0.010169"/>
+		<testcase classname="interm_gi_query" file="./notebooks/MAST/TESS/interm_gi_query/interm_gi_query.ipynb" name="Executed_Cells" time="0.007381"/>
+		<testcase classname="beginner_how_to_use_tp" file="./notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" name="Executed_Cells" time="0.011784"/>
+		<testcase classname="interm_tesscut_astroquery" file="./notebooks/MAST/TESS/interm_tesscut_astroquery/interm_tesscut_astroquery.ipynb" name="Executed_Cells" time="0.016215"/>
+		<testcase classname="beginner_tess_exomast" file="./notebooks/MAST/TESS/beginner_tess_exomast/beginner_tess_exomast.ipynb" name="Executed_Cells" time="0.008612"/>
+		<testcase classname="beginner_how_to_use_dvt" file="./notebooks/MAST/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.ipynb" name="Executed_Cells" time="0.004957"/>
+		<testcase classname="beginner_how_to_use_ffi" file="./notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" name="Executed_Cells" time="0.006008"/>
+		<testcase classname="tesscut_dss_overlay" file="./notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb" name="Executed_Cells" time="0.092701"/>
+		<testcase classname="k2_tpf" file="./notebooks/MAST/K2/K2_TPF/k2_tpf.ipynb" name="Executed_Cells" time="0.014531"/>
+		<testcase classname="k2_lightcurve" file="./notebooks/MAST/K2/K2_Lightcurve/k2_lightcurve.ipynb" name="Executed_Cells" time="0.009206"/>
+		<testcase classname="beginner_how_to_use_ffi" file="./notebooks/MAST/K2/K2_FFI/beginner_how_to_use_ffi.ipynb" name="Executed_Cells" time="0.006799"/>
+		<testcase classname="kepler_ffi" file="./notebooks/MAST/Kepler/Kepler_FFI/kepler_ffi.ipynb" name="Executed_Cells" time="0.019144"/>
+		<testcase classname="kepler_tpf" file="./notebooks/MAST/Kepler/Kepler_TPF/kepler_tpf.ipynb" name="Executed_Cells" time="0.014849"/>
+		<testcase classname="kepler_dvt" file="./notebooks/MAST/Kepler/Kepler_DVT/kepler_dvt.ipynb" name="Executed_Cells" time="0.007780"/>
+		<testcase classname="kepler_lightcurve" file="./notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.ipynb" name="Executed_Cells" time="0.112284"/>
+		<testcase classname="HSC_TAP" file="./notebooks/MAST/HSC/HSC_TAP/HSC_TAP.ipynb" name="Executed_Cells" time="0.012804">
+			<error message="Notebook HSC_TAP.ipynb has executed cells!" type="ExecutedCells"/>
+		</testcase>
+		<testcase classname="align_to_catalogs" file="./notebooks/DrizzlePac/align_to_catalogs/align_to_catalogs.ipynb" name="Executed_Cells" time="0.013743"/>
+		<testcase classname="drizzle_wfpc2" file="./notebooks/DrizzlePac/drizzle_wfpc2/drizzle_wfpc2.ipynb" name="Executed_Cells" time="0.008340"/>
+		<testcase classname="use_ds9_regions_in_tweakreg" file="./notebooks/DrizzlePac/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb" name="Executed_Cells" time="0.018198"/>
+		<testcase classname="align_multiple_visits" file="./notebooks/DrizzlePac/align_multiple_visits/align_multiple_visits.ipynb" name="Executed_Cells" time="0.017736"/>
+		<testcase classname="align_sparse_fields" file="./notebooks/DrizzlePac/align_sparse_fields/align_sparse_fields.ipynb" name="Executed_Cells" time="0.012648"/>
+		<testcase classname="Initialization" file="./notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="Executed_Cells" time="0.013093"/>
+		<testcase classname="align_mosaics" file="./notebooks/DrizzlePac/align_mosaics/align_mosaics.ipynb" name="Executed_Cells" time="0.028739"/>
+		<testcase classname="optimize_image_sampling" file="./notebooks/DrizzlePac/optimize_image_sampling/optimize_image_sampling.ipynb" name="Executed_Cells" time="0.012382"/>
+		<testcase classname="sky_matching" file="./notebooks/DrizzlePac/sky_matching/sky_matching.ipynb" name="Executed_Cells" time="0.012653"/>
+		<testcase classname="mask_satellite" file="./notebooks/DrizzlePac/mask_satellite/mask_satellite.ipynb" name="Executed_Cells" time="0.007387"/>
+	</testsuite>
+	<testsuite disabled="0" errors="29" failures="0" name="PEP8 Check" package="spacetelescope_notebooks" skipped="0" tests="29" time="2.050201892852783">
+		<testcase classname="interm_tesscut_requests" file="./notebooks/MAST/TESS/interm_tesscut_requests/interm_tesscut_requests.ipynb" name="PEP8" time="0.035863">
+			<error message="Notebook interm_tesscut_requests.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+s
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_tour_lc_tp" file="./notebooks/MAST/TESS/beginner_tour_lc_tp/beginner_tour_lc_tp.ipynb" name="PEP8" time="0.071154">
+			<error message="Notebook beginner_tour_lc_tp.ipynb has PEP8 issues!
+stdin:3:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+e
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_tic_search_hd209458" file="./notebooks/MAST/TESS/beginner_tic_search_hd209458/beginner_tic_search_hd209458.ipynb" name="PEP8" time="0.017562">
+			<error message="Notebook beginner_tic_search_hd209458.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+t
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_how_to_use_lc" file="./notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" name="PEP8" time="0.025044">
+			<error message="Notebook beginner_how_to_use_lc.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="interm_gi_query" file="./notebooks/MAST/TESS/interm_gi_query/interm_gi_query.ipynb" name="PEP8" time="0.027857">
+			<error message="Notebook interm_gi_query.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_how_to_use_tp" file="./notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" name="PEP8" time="0.034310">
+			<error message="Notebook beginner_how_to_use_tp.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="interm_tesscut_astroquery" file="./notebooks/MAST/TESS/interm_tesscut_astroquery/interm_tesscut_astroquery.ipynb" name="PEP8" time="0.079830">
+			<error message="Notebook interm_tesscut_astroquery.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+k
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+S
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+F
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+x
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_tess_exomast" file="./notebooks/MAST/TESS/beginner_tess_exomast/beginner_tess_exomast.ipynb" name="PEP8" time="0.031718">
+			<error message="Notebook beginner_tess_exomast.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+y
+^
+
+stdin:7:2: E211 whitespace before '(' 
+y
+ ^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+H
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+T
+^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+M
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+L
+^
+
+stdin:12:2: E211 whitespace before '(' 
+L
+ ^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:16:2: E211 whitespace before '(' 
+r
+ ^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:19:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:21:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:28:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:29:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:30:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:31:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:32:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:33:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:38:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:39:1: E122 continuation line missing indentation or outdented 
+-
+^
+
+stdin:40:1: E122 continuation line missing indentation or outdented 
+8
+^
+
+stdin:41:1: E122 continuation line missing indentation or outdented 
+'
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_how_to_use_dvt" file="./notebooks/MAST/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.ipynb" name="PEP8" time="0.016723">
+			<error message="Notebook beginner_how_to_use_dvt.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:12:2: E211 whitespace before '(' 
+a
+ ^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+v
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:19:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:21:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:21:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:26:2: E251 unexpected spaces around keyword / parameter equals 
+t
+ ^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:27:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:28:1: E122 continuation line missing indentation or outdented 
+3
+^
+
+stdin:30:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:31:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:32:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+s
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_how_to_use_ffi" file="./notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" name="PEP8" time="0.021083">
+			<error message="Notebook beginner_how_to_use_ffi.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:10:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+z
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:18:2: E251 unexpected spaces around keyword / parameter equals 
+e
+ ^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:20:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:24:2: E203 whitespace before ',' 
+2
+ ^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:38:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:39:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:40:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:41:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:42:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:42:2: E211 whitespace before '(' 
+t
+ ^
+
+stdin:43:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:44:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:45:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:46:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:46:2: E203 whitespace before ',' 
+1
+ ^
+
+stdin:47:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:49:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:50:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:51:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:52:1: E122 continuation line missing indentation or outdented 
+j
+^
+
+stdin:53:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:54:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:55:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:56:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:57:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:58:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:58:2: E251 unexpected spaces around keyword / parameter equals 
+n
+ ^
+
+stdin:60:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:60:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:62:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:63:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:64:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:65:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:66:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:67:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:68:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:69:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:73:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:74:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:75:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:76:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:77:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:78:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:79:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:80:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:81:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:81:2: E211 whitespace before '(' 
+w
+ ^
+
+stdin:82:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:83:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:84:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:85:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:86:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:87:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:88:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:89:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:90:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:91:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:91:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:92:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:94:1: E122 continuation line missing indentation or outdented 
+v
+^
+
+stdin:95:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:96:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:97:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:97:2: E251 unexpected spaces around keyword / parameter equals 
+n
+ ^
+
+stdin:99:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:99:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:101:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:102:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:103:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:104:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:105:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:106:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:107:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:108:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:109:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:110:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:111:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:112:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:113:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:113:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:114:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:115:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:116:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:117:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:118:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:119:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:120:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:121:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:122:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:123:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:123:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:124:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:125:1: E122 continuation line missing indentation or outdented 
+4
+^
+
+stdin:126:2: E203 whitespace before ',' 
+)
+ ^
+
+stdin:127:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:128:1: E122 continuation line missing indentation or outdented 
+v
+^
+
+stdin:129:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:130:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:131:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:131:2: E251 unexpected spaces around keyword / parameter equals 
+x
+ ^
+
+stdin:133:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:133:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:135:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:136:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:137:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:138:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:139:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:140:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:141:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:142:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:143:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:144:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:145:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:146:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:147:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:147:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:148:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:149:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:150:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:151:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:152:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:153:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:154:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:155:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:156:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:157:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:157:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:158:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:160:1: E122 continuation line missing indentation or outdented 
+9
+^
+
+stdin:161:1: E122 continuation line missing indentation or outdented 
+8
+^
+
+stdin:162:2: E203 whitespace before ',' 
+)
+ ^
+
+stdin:163:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:164:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:165:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:166:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:167:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:168:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:169:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:169:2: E251 unexpected spaces around keyword / parameter equals 
+n
+ ^
+
+stdin:171:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:171:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:173:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:174:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:175:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:176:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:177:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:178:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:179:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:183:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:184:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:185:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:186:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:187:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:188:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:189:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:190:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:191:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:191:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:192:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:193:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:194:1: E122 continuation line missing indentation or outdented 
+R
+^
+
+stdin:195:1: E122 continuation line missing indentation or outdented 
+A
+^
+
+stdin:196:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:200:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:201:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:202:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:203:1: E122 continuation line missing indentation or outdented 
+y
+^
+
+stdin:204:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:205:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:206:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:207:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:208:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:208:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:209:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:210:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:211:1: E122 continuation line missing indentation or outdented 
+D
+^
+
+stdin:212:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:213:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:214:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:218:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:219:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:220:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:221:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:222:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:223:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:224:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:225:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:225:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:226:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:227:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:228:1: E122 continuation line missing indentation or outdented 
+T
+^
+
+stdin:229:1: E122 continuation line missing indentation or outdented 
+E
+^
+
+stdin:230:1: E122 continuation line missing indentation or outdented 
+S
+^
+
+stdin:231:1: E122 continuation line missing indentation or outdented 
+S
+^
+
+stdin:233:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:234:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:235:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:236:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:237:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:238:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:239:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:240:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:241:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:242:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:244:1: E122 continuation line missing indentation or outdented 
+F
+^
+
+stdin:245:1: E122 continuation line missing indentation or outdented 
+F
+^
+
+stdin:246:1: E122 continuation line missing indentation or outdented 
+I
+^
+
+stdin:248:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:249:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:250:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:252:1: E122 continuation line missing indentation or outdented 
+S
+^
+
+stdin:253:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:254:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:255:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:256:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:257:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:259:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:259:2: E203 whitespace before ',' 
+1
+ ^
+
+stdin:260:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:262:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:263:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:264:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:265:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:266:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:267:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:269:1: E122 continuation line missing indentation or outdented 
+4
+^
+
+stdin:269:2: E203 whitespace before ',' 
+4
+ ^
+
+stdin:270:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:272:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:273:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:274:1: E122 continuation line missing indentation or outdented 
+D
+^
+
+stdin:276:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:276:2: E203 whitespace before ',' 
+2
+ ^
+
+stdin:277:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:279:1: E122 continuation line missing indentation or outdented 
+T
+^
+
+stdin:280:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:281:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:282:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:283:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:284:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:285:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:286:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:287:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:289:1: E122 continuation line missing indentation or outdented 
+%
+^
+
+stdin:290:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:292:1: E122 continuation line missing indentation or outdented 
+B
+^
+
+stdin:293:1: E122 continuation line missing indentation or outdented 
+T
+^
+
+stdin:294:1: E122 continuation line missing indentation or outdented 
+J
+^
+
+stdin:295:1: E122 continuation line missing indentation or outdented 
+D
+^
+
+stdin:296:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:298:1: E122 continuation line missing indentation or outdented 
+%
+^
+
+stdin:300:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:301:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:302:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:303:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:304:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:305:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:306:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:307:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:312:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:313:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:314:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:315:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:316:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:317:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:318:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:319:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:320:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:321:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:322:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:323:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:324:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:325:1: E122 continuation line missing indentation or outdented 
+e
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="tesscut_dss_overlay" file="./notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb" name="PEP8" time="0.030506">
+			<error message="Notebook tesscut_dss_overlay.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="k2_tpf" file="./notebooks/MAST/K2/K2_TPF/k2_tpf.ipynb" name="PEP8" time="0.032891">
+			<error message="Notebook k2_tpf.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="k2_lightcurve" file="./notebooks/MAST/K2/K2_Lightcurve/k2_lightcurve.ipynb" name="PEP8" time="0.025055">
+			<error message="Notebook k2_lightcurve.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="beginner_how_to_use_ffi" file="./notebooks/MAST/K2/K2_FFI/beginner_how_to_use_ffi.ipynb" name="PEP8" time="0.023237">
+			<error message="Notebook beginner_how_to_use_ffi.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:10:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+z
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:18:2: E251 unexpected spaces around keyword / parameter equals 
+e
+ ^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:20:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:24:2: E203 whitespace before ',' 
+2
+ ^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:38:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:39:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:40:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:41:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:42:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:42:2: E211 whitespace before '(' 
+t
+ ^
+
+stdin:43:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:44:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:45:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:46:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:46:2: E203 whitespace before ',' 
+1
+ ^
+
+stdin:47:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:49:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:50:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:51:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:52:1: E122 continuation line missing indentation or outdented 
+j
+^
+
+stdin:53:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:54:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:55:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:56:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:57:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:58:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:58:2: E251 unexpected spaces around keyword / parameter equals 
+n
+ ^
+
+stdin:60:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:60:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:62:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:63:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:64:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:65:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:66:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:67:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:68:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:69:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:73:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:74:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:75:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:76:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:77:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:78:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:79:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:80:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:81:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:81:2: E211 whitespace before '(' 
+w
+ ^
+
+stdin:82:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:83:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:84:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:85:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:86:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:87:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:88:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:89:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:90:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:91:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:91:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:92:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:94:1: E122 continuation line missing indentation or outdented 
+v
+^
+
+stdin:95:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:96:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:97:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:97:2: E251 unexpected spaces around keyword / parameter equals 
+n
+ ^
+
+stdin:99:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:99:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:101:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:102:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:103:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:104:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:105:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:106:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:107:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:108:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:109:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:110:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:111:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:112:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:113:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:113:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:114:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:115:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:116:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:117:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:118:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:119:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:120:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:121:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:122:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:123:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:123:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:124:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:125:1: E122 continuation line missing indentation or outdented 
+4
+^
+
+stdin:126:2: E203 whitespace before ',' 
+)
+ ^
+
+stdin:127:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:128:1: E122 continuation line missing indentation or outdented 
+v
+^
+
+stdin:129:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:130:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:131:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:131:2: E251 unexpected spaces around keyword / parameter equals 
+x
+ ^
+
+stdin:133:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:133:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:135:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:136:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:137:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:138:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:139:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:140:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:141:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:142:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:143:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:144:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:145:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:146:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:147:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:147:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:148:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:149:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:150:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:151:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:152:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:153:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:154:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:155:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:156:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:157:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:157:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:158:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:160:1: E122 continuation line missing indentation or outdented 
+9
+^
+
+stdin:161:1: E122 continuation line missing indentation or outdented 
+8
+^
+
+stdin:162:2: E203 whitespace before ',' 
+)
+ ^
+
+stdin:163:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:164:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:165:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:166:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:167:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:168:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:169:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:169:2: E251 unexpected spaces around keyword / parameter equals 
+n
+ ^
+
+stdin:171:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:171:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:173:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:174:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:175:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:176:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:177:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:178:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:179:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:183:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:184:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:185:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:186:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:187:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:188:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:189:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:190:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:191:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:191:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:192:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:193:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:194:1: E122 continuation line missing indentation or outdented 
+R
+^
+
+stdin:195:1: E122 continuation line missing indentation or outdented 
+A
+^
+
+stdin:196:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:200:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:201:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:202:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:203:1: E122 continuation line missing indentation or outdented 
+y
+^
+
+stdin:204:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:205:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:206:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:207:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:208:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:208:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:209:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:210:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:211:1: E122 continuation line missing indentation or outdented 
+D
+^
+
+stdin:212:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:213:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:214:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:218:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:219:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:220:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:221:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:222:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:223:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:224:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:225:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:225:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:226:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:227:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:228:1: E122 continuation line missing indentation or outdented 
+K
+^
+
+stdin:229:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:231:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:232:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:233:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:234:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:235:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:236:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:237:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:238:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:239:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:240:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:242:1: E122 continuation line missing indentation or outdented 
+F
+^
+
+stdin:243:1: E122 continuation line missing indentation or outdented 
+F
+^
+
+stdin:244:1: E122 continuation line missing indentation or outdented 
+I
+^
+
+stdin:246:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:247:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:248:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:250:1: E122 continuation line missing indentation or outdented 
+M
+^
+
+stdin:251:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:252:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:253:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:254:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:255:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:257:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:257:2: E203 whitespace before ',' 
+2
+ ^
+
+stdin:258:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:260:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:261:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:262:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:263:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:264:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:265:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:266:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:268:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:268:2: E203 whitespace before ',' 
+1
+ ^
+
+stdin:269:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:271:1: E122 continuation line missing indentation or outdented 
+T
+^
+
+stdin:272:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:273:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:274:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:275:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:276:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:277:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:278:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:279:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:281:1: E122 continuation line missing indentation or outdented 
+%
+^
+
+stdin:282:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:284:1: E122 continuation line missing indentation or outdented 
+B
+^
+
+stdin:285:1: E122 continuation line missing indentation or outdented 
+K
+^
+
+stdin:286:1: E122 continuation line missing indentation or outdented 
+J
+^
+
+stdin:287:1: E122 continuation line missing indentation or outdented 
+D
+^
+
+stdin:288:1: E122 continuation line missing indentation or outdented 
+&quot;
+^
+
+stdin:290:1: E122 continuation line missing indentation or outdented 
+%
+^
+
+stdin:292:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:293:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:294:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:295:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:296:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:297:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:298:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:299:1: E122 continuation line missing indentation or outdented 
+e
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="kepler_ffi" file="./notebooks/MAST/Kepler/Kepler_FFI/kepler_ffi.ipynb" name="PEP8" time="0.089791">
+			<error message="Notebook kepler_ffi.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+u
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="kepler_tpf" file="./notebooks/MAST/Kepler/Kepler_TPF/kepler_tpf.ipynb" name="PEP8" time="0.060826">
+			<error message="Notebook kepler_tpf.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:10:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:19:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:21:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:22:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+T
+^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+P
+^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+F
+^
+
+stdin:29:1: E122 continuation line missing indentation or outdented 
+A
+^
+
+stdin:30:1: E122 continuation line missing indentation or outdented 
+P
+^
+
+stdin:31:1: E122 continuation line missing indentation or outdented 
+E
+^
+
+stdin:32:1: E122 continuation line missing indentation or outdented 
+R
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+T
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+U
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+R
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+E
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:41:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:42:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:43:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:44:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:45:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:46:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:47:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:48:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:49:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:49:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:50:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:51:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:52:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:53:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:54:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:55:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:56:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:57:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:58:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:62:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:63:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:64:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:65:1: E122 continuation line missing indentation or outdented 
+y
+^
+
+stdin:66:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:67:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:68:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:69:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:70:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:70:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:71:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:72:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:73:1: E122 continuation line missing indentation or outdented 
+R
+^
+
+stdin:74:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:75:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:76:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:80:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:81:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:82:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:83:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:84:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:85:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:86:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:87:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:88:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:88:2: E211 whitespace before '(' 
+w
+ ^
+
+stdin:89:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:90:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:91:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:92:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:93:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:94:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:95:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:96:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:96:2: E203 whitespace before ',' 
+a
+ ^
+
+stdin:97:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:99:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:100:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:101:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:102:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:102:2: E251 unexpected spaces around keyword / parameter equals 
+p
+ ^
+
+stdin:103:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:103:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:104:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:105:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:106:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:107:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:108:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:109:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:110:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:111:1: E122 continuation line missing indentation or outdented 
+Y
+^
+
+stdin:112:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:113:1: E122 continuation line missing indentation or outdented 
+G
+^
+
+stdin:114:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:115:1: E122 continuation line missing indentation or outdented 
+B
+^
+
+stdin:116:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:117:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:118:1: E122 continuation line missing indentation or outdented 
+r
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="kepler_dvt" file="./notebooks/MAST/Kepler/Kepler_DVT/kepler_dvt.ipynb" name="PEP8" time="0.019108">
+			<error message="Notebook kepler_dvt.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:12:2: E211 whitespace before '(' 
+a
+ ^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+v
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:19:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:21:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:21:2: E203 whitespace before ',' 
+e
+ ^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:26:2: E251 unexpected spaces around keyword / parameter equals 
+t
+ ^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:27:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:28:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:30:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:31:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:32:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+s
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="kepler_lightcurve" file="./notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.ipynb" name="PEP8" time="0.030826">
+			<error message="Notebook kepler_lightcurve.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:10:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:19:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:21:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:23:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+K
+^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:28:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:29:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:30:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:31:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+A
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:38:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:39:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:40:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:41:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:45:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:46:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:47:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:48:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:49:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:50:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:51:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:52:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:53:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:53:2: E211 whitespace before '(' 
+w
+ ^
+
+stdin:54:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:55:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:56:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:57:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:58:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:59:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:60:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:61:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:61:2: E203 whitespace before ',' 
+a
+ ^
+
+stdin:62:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:64:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:65:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:66:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:67:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:67:2: E251 unexpected spaces around keyword / parameter equals 
+p
+ ^
+
+stdin:68:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:68:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:69:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:70:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:71:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:72:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:73:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:74:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:75:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:76:1: E122 continuation line missing indentation or outdented 
+Y
+^
+
+stdin:77:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:78:1: E122 continuation line missing indentation or outdented 
+G
+^
+
+stdin:79:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:80:1: E122 continuation line missing indentation or outdented 
+B
+^
+
+stdin:81:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:82:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:83:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:87:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:88:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:89:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:90:1: E122 continuation line missing indentation or outdented 
+x
+^
+
+stdin:91:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:92:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:93:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:94:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:95:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:95:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:96:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:97:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:98:1: E122 continuation line missing indentation or outdented 
+C
+^
+
+stdin:99:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:100:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:101:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:102:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:103:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:104:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:108:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:109:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:110:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:111:1: E122 continuation line missing indentation or outdented 
+y
+^
+
+stdin:112:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:113:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:114:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:115:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:116:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:116:2: E211 whitespace before '(' 
+l
+ ^
+
+stdin:117:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:118:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:119:1: E122 continuation line missing indentation or outdented 
+R
+^
+
+stdin:120:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:121:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:122:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:126:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:127:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:128:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:129:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:130:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:131:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:132:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:133:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:134:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:135:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:136:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:136:2: E211 whitespace before '(' 
+r
+ ^
+
+stdin:137:1: E122 continuation line missing indentation or outdented 
+(
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="HSC_TAP" file="./notebooks/MAST/HSC/HSC_TAP/HSC_TAP.ipynb" name="PEP8" time="0.174719">
+			<error message="Notebook HSC_TAP.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="align_to_catalogs" file="./notebooks/DrizzlePac/align_to_catalogs/align_to_catalogs.ipynb" name="PEP8" time="0.483879">
+			<error message="Notebook align_to_catalogs.ipynb has PEP8 issues!
+stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="drizzle_wfpc2" file="./notebooks/DrizzlePac/drizzle_wfpc2/drizzle_wfpc2.ipynb" name="PEP8" time="0.076141">
+			<error message="Notebook drizzle_wfpc2.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+z
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+q
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="use_ds9_regions_in_tweakreg" file="./notebooks/DrizzlePac/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb" name="PEP8" time="0.044557">
+			<error message="Notebook use_ds9_regions_in_tweakreg.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+k
+^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:19:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:21:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+o
+^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:23:2: E211 whitespace before '(' 
+t
+ ^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+(
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="align_multiple_visits" file="./notebooks/DrizzlePac/align_multiple_visits/align_multiple_visits.ipynb" name="PEP8" time="0.146012">
+			<error message="Notebook align_multiple_visits.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:10:2: E211 whitespace before '(' 
+e
+ ^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+g
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+z
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:18:2: E251 unexpected spaces around keyword / parameter equals 
+e
+ ^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:20:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+0
+^
+
+stdin:24:2: E203 whitespace before ',' 
+0
+ ^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+1
+^
+
+stdin:28:1: E122 continuation line missing indentation or outdented 
+0
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+r
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:38:1: E122 continuation line missing indentation or outdented 
+t
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="align_sparse_fields" file="./notebooks/DrizzlePac/align_sparse_fields/align_sparse_fields.ipynb" name="PEP8" time="0.087368">
+			<error message="Notebook align_sparse_fields.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+i
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="Initialization" file="./notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="PEP8" time="0.026293">
+			<error message="Notebook Initialization.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:9:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:10:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:11:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:12:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:13:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:14:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:15:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:16:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:17:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:18:1: E122 continuation line missing indentation or outdented 
+p
+^
+
+stdin:19:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:20:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:21:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:22:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:23:1: E122 continuation line missing indentation or outdented 
+w
+^
+
+stdin:24:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:25:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:25:2: E211 whitespace before '(' 
+s
+ ^
+
+stdin:26:1: E122 continuation line missing indentation or outdented 
+(
+^
+
+stdin:27:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:28:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:29:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:30:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:31:1: E122 continuation line missing indentation or outdented 
+j
+^
+
+stdin:32:1: E122 continuation line missing indentation or outdented 
+0
+^
+
+stdin:33:1: E122 continuation line missing indentation or outdented 
+2
+^
+
+stdin:34:1: E122 continuation line missing indentation or outdented 
+n
+^
+
+stdin:35:1: E122 continuation line missing indentation or outdented 
+5
+^
+
+stdin:36:1: E122 continuation line missing indentation or outdented 
+q
+^
+
+stdin:37:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:38:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:39:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:40:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:41:1: E122 continuation line missing indentation or outdented 
+.
+^
+
+stdin:42:1: E122 continuation line missing indentation or outdented 
+f
+^
+
+stdin:43:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:44:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:45:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:46:1: E122 continuation line missing indentation or outdented 
+'
+^
+
+stdin:46:2: E203 whitespace before ',' 
+'
+ ^
+
+stdin:47:1: E122 continuation line missing indentation or outdented 
+,
+^
+
+stdin:49:1: E122 continuation line missing indentation or outdented 
+u
+^
+
+stdin:50:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:51:1: E122 continuation line missing indentation or outdented 
+e
+^
+
+stdin:52:1: E122 continuation line missing indentation or outdented 
+_
+^
+
+stdin:53:1: E122 continuation line missing indentation or outdented 
+d
+^
+
+stdin:54:1: E122 continuation line missing indentation or outdented 
+b
+^
+
+stdin:54:2: E251 unexpected spaces around keyword / parameter equals 
+b
+ ^
+
+stdin:55:1: E122 continuation line missing indentation or outdented 
+=
+^
+
+stdin:55:2: E251 unexpected spaces around keyword / parameter equals 
+=
+ ^
+
+stdin:56:1: E122 continuation line missing indentation or outdented 
+F
+^
+
+stdin:57:1: E122 continuation line missing indentation or outdented 
+a
+^
+
+stdin:58:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:59:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:60:1: E122 continuation line missing indentation or outdented 
+e
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="align_mosaics" file="./notebooks/DrizzlePac/align_mosaics/align_mosaics.ipynb" name="PEP8" time="0.180268">
+			<error message="Notebook align_mosaics.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+i
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="optimize_image_sampling" file="./notebooks/DrizzlePac/optimize_image_sampling/optimize_image_sampling.ipynb" name="PEP8" time="0.039462">
+			<error message="Notebook optimize_image_sampling.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+h
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+t
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+l
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+i
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+s
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+t
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="sky_matching" file="./notebooks/DrizzlePac/sky_matching/sky_matching.ipynb" name="PEP8" time="0.067499">
+			<error message="Notebook sky_matching.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+c
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+i
+^" type="CodeCellPep8Issues"/>
+		</testcase>
+		<testcase classname="mask_satellite" file="./notebooks/DrizzlePac/mask_satellite/mask_satellite.ipynb" name="PEP8" time="0.050619">
+			<error message="Notebook mask_satellite.ipynb has PEP8 issues!
+stdin:2:1: E122 continuation line missing indentation or outdented 
+m
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+g
+^" type="CodeCellPep8Issues"/>
 		</testcase>
 	</testsuite>
 </testsuites>
