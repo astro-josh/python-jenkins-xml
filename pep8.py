@@ -18,7 +18,7 @@ code = [
 ]
 
 
-c = Checker(lines=code, quiet=0, ignore='W292', show_source=True)
+c = Checker(lines=code, quiet=1, ignore='W292', show_source=True)
 c.check_all()
 
 print(c.report._deferred_print)

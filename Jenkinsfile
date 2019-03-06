@@ -16,14 +16,15 @@ pipeline {
       }
       stage('test') {
         steps {
-          junit 'test-report.xml'
           junit 'output.xml'
           junit 'convert_test_report.xml'
+          junit 'check_test_report.xml'
         }
       }
       stage('archive') {
         steps {
           archiveArtifacts artifacts: '*.xml', onlyIfSuccessful: false, allowEmptyArchive: true
+          cleanWs()
         }
       }
   }
