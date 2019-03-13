@@ -17,7 +17,7 @@ jobs:
             python pyxml.py
             LATEST_COMMIT=$(git rev-parse HEAD)
             FILES=$(git show --pretty="format:" --name-only $LATEST_COMMIT)
-            echo ${FILES// /,}
+            echo $FILES | tr ' ' ','
             echo $LATEST_COMMIT
             echo $CIRCLE_COMPARE_URL
             echo $CIRCLE_SHA1

@@ -1,10 +1,7 @@
-
 import traceback
 import subprocess
 import re
 import html
-
-
 
 
 list_changed_files_cmd = "git show --pretty=format: --name-only master"
