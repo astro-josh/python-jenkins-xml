@@ -17,6 +17,9 @@ jobs:
             LATEST_COMMIT=$(git rev-parse HEAD)
             echo $LATEST_COMMIT
             echo $CIRCLE_COMPARE_URL
+            echo $CIRCLE_SHA1
+            echo #CIRCLE_PULL_REQUEST
+
 
       - store_test_results:
           path: ./
