@@ -2,6 +2,7 @@ import traceback
 import subprocess
 import re
 import html
+import os
 
 
 list_changed_files_cmd = "git show --pretty=format: --name-only -r master"
