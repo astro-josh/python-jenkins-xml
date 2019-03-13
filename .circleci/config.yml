@@ -4,7 +4,6 @@ executors:
   my-executor:
     docker:
       - image: continuumio/miniconda3
-      # astroconda/python:3.6.1
     working_directory: ~/repo
 
 jobs:
@@ -12,12 +11,16 @@ jobs:
     executor: my-executor
     steps:
       - checkout
+    - run:
+        name: Setup Environment
+        command: |
+          LATEST_COMMIT=$(git rev-parse HEAD)
+          echo $LATEST_COMMIT
+          echo $CIRCLE_COMPARE_URL
 
       - store_test_results:
           path: ./
 
-      - store_artifacts:
-          path: ./
 
 workflows:
   version: 2.1
