@@ -1,7 +1,6 @@
 from pycodestyle import Checker
 import re
 
-
 code = [
 "# Retrieve the IR/F160W calibrated FLT and SPT data products  \n",
 "\n",
