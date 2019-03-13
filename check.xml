@@ -1,0 +1,442 @@
+<?xml version="1.0" ?>
+<testsuites disabled="0" errors="30" failures="0" tests="58" time="2.1427321434020996">
+	<testsuite disabled="0" errors="30" failures="0" name="Notebook Checks" package="spacetelescope_notebooks" skipped="0" tests="58" time="2.1427321434020996">
+		<testcase classname="interm tesscut requests" file="./notebooks/MAST/TESS/interm_tesscut_requests/interm_tesscut_requests.ipynb" name="ExecutedCells" time="0.011346"/>
+		<testcase classname="beginner tour lc tp" file="./notebooks/MAST/TESS/beginner_tour_lc_tp/beginner_tour_lc_tp.ipynb" name="ExecutedCells" time="0.023397"/>
+		<testcase classname="beginner tic search hd209458" file="./notebooks/MAST/TESS/beginner_tic_search_hd209458/beginner_tic_search_hd209458.ipynb" name="ExecutedCells" time="0.007545"/>
+		<testcase classname="beginner how to use lc" file="./notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" name="ExecutedCells" time="0.012631"/>
+		<testcase classname="interm gi query" file="./notebooks/MAST/TESS/interm_gi_query/interm_gi_query.ipynb" name="ExecutedCells" time="0.011833"/>
+		<testcase classname="beginner how to use tp" file="./notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" name="ExecutedCells" time="0.019706"/>
+		<testcase classname="interm tesscut astroquery" file="./notebooks/MAST/TESS/interm_tesscut_astroquery/interm_tesscut_astroquery.ipynb" name="ExecutedCells" time="0.009225"/>
+		<testcase classname="beginner tess exomast" file="./notebooks/MAST/TESS/beginner_tess_exomast/beginner_tess_exomast.ipynb" name="ExecutedCells" time="0.008604"/>
+		<testcase classname="beginner how to use dvt" file="./notebooks/MAST/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.ipynb" name="ExecutedCells" time="0.004988"/>
+		<testcase classname="beginner how to use ffi" file="./notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" name="ExecutedCells" time="0.004686"/>
+		<testcase classname="tesscut dss overlay" file="./notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb" name="ExecutedCells" time="0.010110"/>
+		<testcase classname="k2 tpf" file="./notebooks/MAST/K2/K2_TPF/k2_tpf.ipynb" name="ExecutedCells" time="0.008410"/>
+		<testcase classname="k2 lightcurve" file="./notebooks/MAST/K2/K2_Lightcurve/k2_lightcurve.ipynb" name="ExecutedCells" time="0.008224"/>
+		<testcase classname="beginner how to use ffi" file="./notebooks/MAST/K2/K2_FFI/beginner_how_to_use_ffi.ipynb" name="ExecutedCells" time="0.006102"/>
+		<testcase classname="kepler ffi" file="./notebooks/MAST/Kepler/Kepler_FFI/kepler_ffi.ipynb" name="ExecutedCells" time="0.020895"/>
+		<testcase classname="kepler tpf" file="./notebooks/MAST/Kepler/Kepler_TPF/kepler_tpf.ipynb" name="ExecutedCells" time="0.014551"/>
+		<testcase classname="kepler dvt" file="./notebooks/MAST/Kepler/Kepler_DVT/kepler_dvt.ipynb" name="ExecutedCells" time="0.005169"/>
+		<testcase classname="kepler lightcurve" file="./notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.ipynb" name="ExecutedCells" time="0.011145"/>
+		<testcase classname="HSC TAP" file="./notebooks/MAST/HSC/HSC_TAP/HSC_TAP.ipynb" name="ExecutedCells" time="0.101728">
+			<error message="Notebook HSC_TAP.ipynb has executed cells!" type="ExecutedCells"/>
+		</testcase>
+		<testcase classname="align to catalogs" file="./notebooks/DrizzlePac/align_to_catalogs/align_to_catalogs.ipynb" name="ExecutedCells" time="0.017687"/>
+		<testcase classname="drizzle wfpc2" file="./notebooks/DrizzlePac/drizzle_wfpc2/drizzle_wfpc2.ipynb" name="ExecutedCells" time="0.009755"/>
+		<testcase classname="use ds9 regions in tweakreg" file="./notebooks/DrizzlePac/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb" name="ExecutedCells" time="0.016414"/>
+		<testcase classname="align multiple visits" file="./notebooks/DrizzlePac/align_multiple_visits/align_multiple_visits.ipynb" name="ExecutedCells" time="0.014569"/>
+		<testcase classname="align sparse fields" file="./notebooks/DrizzlePac/align_sparse_fields/align_sparse_fields.ipynb" name="ExecutedCells" time="0.013014"/>
+		<testcase classname="Initialization" file="./notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="ExecutedCells" time="0.008003"/>
+		<testcase classname="align mosaics" file="./notebooks/DrizzlePac/align_mosaics/align_mosaics.ipynb" name="ExecutedCells" time="0.022194"/>
+		<testcase classname="optimize image sampling" file="./notebooks/DrizzlePac/optimize_image_sampling/optimize_image_sampling.ipynb" name="ExecutedCells" time="0.014071"/>
+		<testcase classname="sky matching" file="./notebooks/DrizzlePac/sky_matching/sky_matching.ipynb" name="ExecutedCells" time="0.018263"/>
+		<testcase classname="mask satellite" file="./notebooks/DrizzlePac/mask_satellite/mask_satellite.ipynb" name="ExecutedCells" time="0.017678"/>
+		<testcase classname="interm tesscut requests" file="./notebooks/MAST/TESS/interm_tesscut_requests/interm_tesscut_requests.ipynb" name="PEP8" time="0.039058">
+			<error message="Notebook interm_tesscut_requests.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+fig = plt.figure(figsize=(8,8))
+^
+
+stdin:2:28: E231 missing whitespace after ',' 
+fig = plt.figure(figsize=(8,8))
+                           ^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+plt.imshow(firstImage, origin = 'lower', cmap = plt.cm.viridis, \
+^
+
+stdin:3:30: E251 unexpected spaces around keyword / parameter equals 
+plt.imshow(firstImage, origin = 'lower', cmap = plt.cm.viridis, \
+                             ^
+
+stdin:3:32: E251 unexpected spaces around keyword / parameter equals 
+plt.imshow(firstImage, origin = 'lower', cmap = plt.cm.viridis, \
+                               ^
+
+stdin:3:46: E251 unexpected spaces around keyword / parameter equals 
+plt.imshow(firstImage, origin = 'lower', cmap = plt.cm.viridis, \
+                                             ^
+
+stdin:3:48: E251 unexpected spaces around keyword / parameter equals 
+plt.imshow(firstImage, origin = 'lower', cmap = plt.cm.viridis, \
+                                               ^
+
+stdin:3:65: E502 the backslash is redundant between brackets 
+plt.imshow(firstImage, origin = 'lower', cmap = plt.cm.viridis, \
+                                                                ^
+
+stdin:4:16: E251 unexpected spaces around keyword / parameter equals 
+           vmax = np.percentile(firstImage,92), vmin = np.percentile(firstImage,5))
+               ^
+
+stdin:4:18: E251 unexpected spaces around keyword / parameter equals 
+           vmax = np.percentile(firstImage,92), vmin = np.percentile(firstImage,5))
+                 ^
+
+stdin:4:43: E231 missing whitespace after ',' 
+           vmax = np.percentile(firstImage,92), vmin = np.percentile(firstImage,5))
+                                          ^
+
+stdin:4:53: E251 unexpected spaces around keyword / parameter equals 
+           vmax = np.percentile(firstImage,92), vmin = np.percentile(firstImage,5))
+                                                    ^
+
+stdin:4:55: E251 unexpected spaces around keyword / parameter equals 
+           vmax = np.percentile(firstImage,92), vmin = np.percentile(firstImage,5))
+                                                      ^
+
+stdin:4:80: E231 missing whitespace after ',' 
+           vmax = np.percentile(firstImage,92), vmin = np.percentile(firstImage,5))
+                                                                               ^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+plt.xlabel('CCD Column', fontsize = 14)
+^
+
+stdin:5:34: E251 unexpected spaces around keyword / parameter equals 
+plt.xlabel('CCD Column', fontsize = 14)
+                                 ^
+
+stdin:5:36: E251 unexpected spaces around keyword / parameter equals 
+plt.xlabel('CCD Column', fontsize = 14)
+                                   ^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+plt.ylabel('CCD Row', fontsize = 14)
+^
+
+stdin:6:31: E251 unexpected spaces around keyword / parameter equals 
+plt.ylabel('CCD Row', fontsize = 14)
+                              ^
+
+stdin:6:33: E251 unexpected spaces around keyword / parameter equals 
+plt.ylabel('CCD Row', fontsize = 14)
+                                ^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+plt.grid(axis = 'both', color = 'white', ls = 'solid')
+^
+
+stdin:7:14: E251 unexpected spaces around keyword / parameter equals 
+plt.grid(axis = 'both', color = 'white', ls = 'solid')
+             ^
+
+stdin:7:16: E251 unexpected spaces around keyword / parameter equals 
+plt.grid(axis = 'both', color = 'white', ls = 'solid')
+               ^
+
+stdin:7:30: E251 unexpected spaces around keyword / parameter equals 
+plt.grid(axis = 'both', color = 'white', ls = 'solid')
+                             ^
+
+stdin:7:32: E251 unexpected spaces around keyword / parameter equals 
+plt.grid(axis = 'both', color = 'white', ls = 'solid')
+                               ^
+
+stdin:7:44: E251 unexpected spaces around keyword / parameter equals 
+plt.grid(axis = 'both', color = 'white', ls = 'solid')
+                                           ^
+
+stdin:7:46: E251 unexpected spaces around keyword / parameter equals 
+plt.grid(axis = 'both', color = 'white', ls = 'solid')
+                                             ^</system-out>
+		</testcase>
+		<testcase classname="beginner tour lc tp" file="./notebooks/MAST/TESS/beginner_tour_lc_tp/beginner_tour_lc_tp.ipynb" name="PEP8" time="0.063534">
+			<error message="Notebook beginner_tour_lc_tp.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:1:1: E265 block comment should start with '# ' 
+#Close the FITS files for good practice.
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+tphdu.close()
+^</system-out>
+		</testcase>
+		<testcase classname="beginner tic search hd209458" file="./notebooks/MAST/TESS/beginner_tic_search_hd209458/beginner_tic_search_hd209458.ipynb" name="PEP8" time="0.013246">
+			<error message="Notebook beginner_tic_search_hd209458.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E101 indentation contains mixed spaces and tabs 
+
+^</system-out>
+		</testcase>
+		<testcase classname="beginner how to use lc" file="./notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" name="PEP8" time="0.173272">
+			<error message="Notebook beginner_how_to_use_lc.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:4:1: E122 continuation line missing indentation or outdented 
+print(bitmask)
+^</system-out>
+		</testcase>
+		<testcase classname="interm gi query" file="./notebooks/MAST/TESS/interm_gi_query/interm_gi_query.ipynb" name="PEP8" time="0.061535">
+			<error message="Notebook interm_gi_query.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:3:1: E122 continuation line missing indentation or outdented 
+dataProdType = [&quot;timeseries&quot;]
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+GiProgram = &quot;*G011183*&quot;
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+fileType = &quot;Light curves&quot;
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+sector = 1
+^</system-out>
+		</testcase>
+		<testcase classname="beginner how to use tp" file="./notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" name="PEP8" time="0.076197">
+			<error message="Notebook beginner_how_to_use_tp.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:5:1: E101 indentation contains mixed spaces and tabs 
+
+^</system-out>
+		</testcase>
+		<testcase classname="interm tesscut astroquery" file="./notebooks/MAST/TESS/interm_tesscut_astroquery/interm_tesscut_astroquery.ipynb" name="PEP8" time="0.078610">
+			<error message="Notebook interm_tesscut_astroquery.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:1:72: E202 whitespace before ')' 
+bkgSubFlux = flux1 - (bkgFlux1 * np.sum(aperture) / np.sum(bkgAperture) )
+                                                                       ^</system-out>
+		</testcase>
+		<testcase classname="beginner tess exomast" file="./notebooks/MAST/TESS/beginner_tess_exomast/beginner_tess_exomast.ipynb" name="PEP8" time="0.032441">
+			<error message="Notebook beginner_tess_exomast.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+myparams = {&quot;tce&quot; : tce}
+^
+
+stdin:2:18: E203 whitespace before ':' 
+myparams = {&quot;tce&quot; : tce}
+                 ^</system-out>
+		</testcase>
+		<testcase classname="beginner how to use dvt" file="./notebooks/MAST/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.ipynb" name="PEP8" time="0.015827">
+			<error message="Notebook beginner_how_to_use_dvt.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:1:80: E501 line too long (99 &gt; 79 characters) 
+# First sort the phase and flux arrays by phase so we can draw the connecting lines between points.
+                                                                               ^</system-out>
+		</testcase>
+		<testcase classname="beginner how to use ffi" file="./notebooks/MAST/TESS/beginner_how_to_use_ffi/beginner_how_to_use_ffi.ipynb" name="PEP8" time="0.014044">
+			<error message="Notebook beginner_how_to_use_ffi.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:1:19: E251 unexpected spaces around keyword / parameter equals 
+plt.figure(figsize = (12,12))
+                  ^
+
+stdin:1:21: E251 unexpected spaces around keyword / parameter equals 
+plt.figure(figsize = (12,12))
+                    ^
+
+stdin:1:25: E231 missing whitespace after ',' 
+plt.figure(figsize = (12,12))
+                        ^</system-out>
+		</testcase>
+		<testcase classname="tesscut dss overlay" file="./notebooks/MAST/TESS/interm_tesscut_dss_overlay/tesscut_dss_overlay.ipynb" name="PEP8" time="0.037720">
+			<error message="Notebook tesscut_dss_overlay.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:3:42: E231 missing whitespace after ',' 
+                               alpha=(0.0,1.0), norm=fixed(norm), wcs=fixed(dss_wcs),
+                                         ^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+# display the plot
+^
+
+stdin:7:1: E122 continuation line missing indentation or outdented 
+output.layout.height = '500px'
+^
+
+stdin:8:1: E122 continuation line missing indentation or outdented 
+interactive_plot
+^</system-out>
+		</testcase>
+		<testcase classname="k2 tpf" file="./notebooks/MAST/K2/K2_TPF/k2_tpf.ipynb" name="PEP8" time="0.070783">
+			<error message="Notebook k2_tpf.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:3:1: E122 continuation line missing indentation or outdented 
+fig.set_size_inches(12., 8.)
+^</system-out>
+		</testcase>
+		<testcase classname="k2 lightcurve" file="./notebooks/MAST/K2/K2_Lightcurve/k2_lightcurve.ipynb" name="PEP8" time="0.022012">
+			<error message="Notebook k2_lightcurve.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:4:1: E122 continuation line missing indentation or outdented 
+print(bitmask)
+^</system-out>
+		</testcase>
+		<testcase classname="beginner how to use ffi" file="./notebooks/MAST/K2/K2_FFI/beginner_how_to_use_ffi.ipynb" name="PEP8" time="0.014204">
+			<error message="Notebook beginner_how_to_use_ffi.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:1:19: E251 unexpected spaces around keyword / parameter equals 
+plt.figure(figsize = (12,12))
+                  ^
+
+stdin:1:21: E251 unexpected spaces around keyword / parameter equals 
+plt.figure(figsize = (12,12))
+                    ^
+
+stdin:1:25: E231 missing whitespace after ',' 
+plt.figure(figsize = (12,12))
+                        ^
+
+stdin:2:80: E501 line too long (84 &gt; 79 characters) 
+
+^</system-out>
+		</testcase>
+		<testcase classname="kepler ffi" file="./notebooks/MAST/Kepler/Kepler_FFI/kepler_ffi.ipynb" name="PEP8" time="0.040566">
+			<error message="Notebook kepler_ffi.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+wcs = WCS(hdu.header)
+^
+
+stdin:3:1: E101 indentation contains mixed spaces and tabs 
+
+^
+
+stdin:3:80: E501 line too long (103 &gt; 79 characters) 
+
+^</system-out>
+		</testcase>
+		<testcase classname="kepler tpf" file="./notebooks/MAST/Kepler/Kepler_TPF/kepler_tpf.ipynb" name="PEP8" time="0.041898">
+			<error message="Notebook kepler_tpf.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+plt.title('TPF APERTURE')
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+plt.xlabel('Column')
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+plt.ylabel('Row')
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+plt.imshow(imgdata, cmap=plt.cm.YlGnBu_r)
+^</system-out>
+		</testcase>
+		<testcase classname="kepler dvt" file="./notebooks/MAST/Kepler/Kepler_DVT/kepler_dvt.ipynb" name="PEP8" time="0.018905">
+			<error message="Notebook kepler_dvt.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:1:80: E501 line too long (99 &gt; 79 characters) 
+# First sort the phase and flux arrays by phase so we can draw the connecting lines between points.
+                                                                               ^</system-out>
+		</testcase>
+		<testcase classname="kepler lightcurve" file="./notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.ipynb" name="PEP8" time="0.063718">
+			<error message="Notebook kepler_lightcurve.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+plt.title('Kepler Aperture')
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+plt.imshow(imgdata, cmap=plt.cm.YlGnBu_r)
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+plt.xlabel('Column')
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+plt.ylabel('Row')
+^
+
+stdin:6:1: E122 continuation line missing indentation or outdented 
+plt.colorbar()
+^</system-out>
+		</testcase>
+		<testcase classname="HSC TAP" file="./notebooks/MAST/HSC/HSC_TAP/HSC_TAP.ipynb" name="PEP8" time="0.175912">
+			<error message="Notebook HSC_TAP.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:3:1: E122 continuation line missing indentation or outdented 
+x, y, z = x[idx], y[idx], z[idx]
+^</system-out>
+		</testcase>
+		<testcase classname="align to catalogs" file="./notebooks/DrizzlePac/align_to_catalogs/align_to_catalogs.ipynb" name="PEP8" time="0.187304">
+			<error message="Notebook align_to_catalogs.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E128 continuation line under-indented for visual indent 
+
+^</system-out>
+		</testcase>
+		<testcase classname="drizzle wfpc2" file="./notebooks/DrizzlePac/drizzle_wfpc2/drizzle_wfpc2.ipynb" name="PEP8" time="0.027641">
+			<error message="Notebook drizzle_wfpc2.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+drz_eq = fits.getdata('equalized_sci.fits')
+^</system-out>
+		</testcase>
+		<testcase classname="use ds9 regions in tweakreg" file="./notebooks/DrizzlePac/use_ds9_regions_in_tweakreg/use_ds9_regions_in_tweakreg.ipynb" name="PEP8" time="0.080533">
+			<error message="Notebook use_ds9_regions_in_tweakreg.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:3:49: E231 missing whitespace after ',' 
+                  imagefindcfg=dict(threshold=50,conv_width=4.5),
+                                                ^</system-out>
+		</testcase>
+		<testcase classname="align multiple visits" file="./notebooks/DrizzlePac/align_multiple_visits/align_multiple_visits.ipynb" name="PEP8" time="0.056481">
+			<error message="Notebook align_multiple_visits.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:1:19: E251 unexpected spaces around keyword / parameter equals 
+plt.figure(figsize = (10, 10))
+                  ^
+
+stdin:1:21: E251 unexpected spaces around keyword / parameter equals 
+plt.figure(figsize = (10, 10))
+                    ^
+
+stdin:2:1: E122 continuation line missing indentation or outdented 
+drc_dat = fits.open('f606w_combined_drc.fits')['WHT', 1].data #final drizzled image in WHT,1 extension
+^
+
+stdin:2:62: E261 at least two spaces before inline comment 
+drc_dat = fits.open('f606w_combined_drc.fits')['WHT', 1].data #final drizzled image in WHT,1 extension
+                                                             ^
+
+stdin:2:63: E262 inline comment should start with '# ' 
+drc_dat = fits.open('f606w_combined_drc.fits')['WHT', 1].data #final drizzled image in WHT,1 extension
+                                                              ^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+z1, z2 = zscale.get_limits(drc_dat)
+^
+
+stdin:4:1: E122 continuation line missing indentation or outdented 
+plt.imshow(drc_dat, origin='lower', vmin=z1, vmax=z2, cmap='Greys')
+^
+
+stdin:5:1: E122 continuation line missing indentation or outdented 
+plt.title('F606W weight image', fontsize=30)
+^</system-out>
+		</testcase>
+		<testcase classname="align sparse fields" file="./notebooks/DrizzlePac/align_sparse_fields/align_sparse_fields.ipynb" name="PEP8" time="0.056032">
+			<error message="Notebook align_sparse_fields.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+fig = plt.figure(figsize=(20, 20))
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+plt.imshow(sci, vmin=-0.01, vmax=0.1, cmap='Greys_r', origin='lower')
+^</system-out>
+		</testcase>
+		<testcase classname="Initialization" file="./notebooks/DrizzlePac/Initialization/Initialization.ipynb" name="PEP8" time="0.020639">
+			<error message="Notebook Initialization.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+os.environ['CRDS_PATH'] = os.path.abspath(os.path.join('.', 'reference_files'))
+^</system-out>
+		</testcase>
+		<testcase classname="align mosaics" file="./notebooks/DrizzlePac/align_mosaics/align_mosaics.ipynb" name="PEP8" time="0.108648">
+			<error message="Notebook align_mosaics.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+fig = plt.figure(figsize=(14, 14))
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+plt.imshow(sci, vmin=0, vmax=10000, cmap='Greys_r', origin='lower')
+^</system-out>
+		</testcase>
+		<testcase classname="optimize image sampling" file="./notebooks/DrizzlePac/optimize_image_sampling/optimize_image_sampling.ipynb" name="PEP8" time="0.037927">
+			<error message="Notebook optimize_image_sampling.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:80: E501 line too long (84 &gt; 79 characters) 
+
+^</system-out>
+		</testcase>
+		<testcase classname="sky matching" file="./notebooks/DrizzlePac/sky_matching/sky_matching.ipynb" name="PEP8" time="0.033588">
+			<error message="Notebook sky_matching.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:2:1: E122 continuation line missing indentation or outdented 
+fig = plt.figure(figsize=(14, 14))
+^
+
+stdin:3:1: E122 continuation line missing indentation or outdented 
+plt.imshow(sci, vmin=-0.4, vmax=3, cmap='Greys_r', origin='lower')
+^</system-out>
+		</testcase>
+		<testcase classname="mask satellite" file="./notebooks/DrizzlePac/mask_satellite/mask_satellite.ipynb" name="PEP8" time="0.028514">
+			<error message="Notebook mask_satellite.ipynb has PEP8 issues!" type="CodeCellPep8Issues"/>
+			<system-out>stdin:6:80: E501 line too long (81 &gt; 79 characters) 
+
+^</system-out>
+		</testcase>
+	</testsuite>
+</testsuites>
