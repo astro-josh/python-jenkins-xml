@@ -1,29 +1,26 @@
-pipeline {
-  agent { label 'linux' }
+// Obtain files from source control system.
+if (utils.scm_checkout()) return
 
-  environment {
-    PATH="/var/jenkins_home/miniconda3/bin:$PATH"
-  }
+matrix_os = ["linux"]
+matrix_python = ["3.5"]
+matrix = []
 
-  stages {
-      stage('build') {
-        steps {
-          checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/obviousrebel/python-jenkins-xml.git']]])
-          // sh 'conda info'
-          // sh 'conda install -c bioconda junit-xml'
-          // sh "python pyxml.py"
-        }
-      }
-      stage('test') {
-        steps {
-          junit '*.xml'
-        }
-      }
-      stage('archive') {
-        steps {
-          archiveArtifacts artifacts: '*.xml', onlyIfSuccessful: false, allowEmptyArchive: true
-          cleanWs()
-        }
-      }
+withCredentials([string(
+    credentialsId: 'jwql-codecov',
+    variable: 'codecov_token')]) {
+
+  for (os in matrix_os) {
+    for (python_ver in matrix_python) {
+      // Define each build configuration, copying and overriding values as necessary.
+      env_py = "_python_${python_ver}".replace(".", "_")
+      bc = new BuildConfig()
+      bc.nodetype = os
+      bc.name = "debug-${os}-${env_py}"
+      bc.conda_packages = ["python=${python_ver}"]
+      bc.build_cmds = ["ls"]
+      bc.test_cmds = ["ls"]
+      matrix += bc
+    }
   }
+  utils.run(matrix)
 }
