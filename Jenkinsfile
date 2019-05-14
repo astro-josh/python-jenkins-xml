@@ -12,7 +12,6 @@ matrix = []
       bc = new BuildConfig()
       bc.nodetype = os
       bc.name = "debug-${os}-${env_py}"
-      bc.conda_packages = ["python=${python_ver}"]
       bc.build_cmds = ["ls"]
       bc.test_cmds = ["ls"]
       matrix += bc
