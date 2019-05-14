@@ -13,7 +13,7 @@ matrix = []
       bc.nodetype = os
       bc.name = "debug-${os}-${env_py}"
       bc.build_cmds = ["ls"]
-      bc.test_cmds = ["ls", "sed -i 's/file=\".*\"//g;s/line=\".*\"//g' results.xml"]
+      bc.test_cmds = ["ls", "sed -i 's/file=\".*\"//g;' results.xml"]
       matrix += bc
     }
   }
