@@ -5,10 +5,6 @@ matrix_os = ["linux"]
 matrix_python = ["3.5"]
 matrix = []
 
-withCredentials([string(
-    credentialsId: 'jwql-codecov',
-    variable: 'codecov_token')]) {
-
   for (os in matrix_os) {
     for (python_ver in matrix_python) {
       // Define each build configuration, copying and overriding values as necessary.
@@ -23,4 +19,3 @@ withCredentials([string(
     }
   }
   utils.run(matrix)
-}
