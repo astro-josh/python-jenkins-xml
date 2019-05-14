@@ -5,7 +5,7 @@
  +  where 187 = &lt;pyrsa.pyrsa.RSA object at 0x110f0e208&gt;.n">self = &lt;test_pyrsa.TestRSA object at 0x110f0e1d0&gt; def test_rsa_init(self): n = 187 e = 3 d = 107 rsa = RSA(n=n, e=e) assert rsa.n == 176 E
       assert 187 == 176 E + where 187 = pyrsa.pyrsa.RSA object at 0x110f0e208.n tests/test_pyrsa.py:15: AssertionError</failure>
   </testcase>
-  <testcase classname="tests.test_pyrsa.TestRSA" file="tests/test_pyrsa.py" line="18" name="test_decrypt" time="0.002686023712158203"></testcase>
+  <testcase name="test_decrypt" classname="tests.test_pyrsa.TestRSA" file="tests/test_pyrsa.py" line="18" time="0.002686023712158203"></testcase>
   <testcase classname="tests.test_pyrsa.TestRSA" file="tests/test_pyrsa.py" line="55" name="test_euclidean" time="0.0006589889526367188"></testcase>
   <testcase classname="tests.test_pyrsa.TestRSA" file="tests/test_pyrsa.py" line="69" name="test_find_prime_factors" time="0.0008738040924072266"></testcase>
   <testcase classname="tests.test_pyrsa.TestRSA" file="tests/test_pyrsa.py" line="81" name="test_modular_exponentiation" time="0.0006041526794433594"></testcase>
